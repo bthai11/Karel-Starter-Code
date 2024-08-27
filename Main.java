@@ -24,10 +24,9 @@ public class Main implements Directions {
 
   }
     public static void turnRight(Robot placeHolder){
-      placeHolder.turnLeft();
-      placeHolder.turnLeft();
-      placeHolder.turnLeft();
-
+      for(int i =0; i<3;i++){
+        placeHolder.turnLeft();
+      }
     }
   
 }
